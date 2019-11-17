@@ -1,5 +1,4 @@
-- layout: left
-
+- layout: left_education
 - name: Alexandru Ioan Cuza University
   grades:
     - dates: 2013 - 2016
