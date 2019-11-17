@@ -4,12 +4,12 @@
     {% if forloop.first == true %}
     <div class="no-split">
         <h3>{{ site.education_title | default: "Education" }}</h3>
-        {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
+        {% include {{ education.layout | default: 'left_education' | append: ".html" }} item=education %}
     </div>
     {% endif %}
 
     {% if forloop.first != true %}
-    <div class="no-split"> {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}</div>
+    <div class="no-split"> {% include {{ education.layout | default: 'left_education' | append: ".html" }} item=education %}</div>
     {% endif %}
 
 
