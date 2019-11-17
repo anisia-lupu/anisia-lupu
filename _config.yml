@@ -1,0 +1,70 @@
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Lupu Anisia Ioana 
+title: Java Software Developer
+email: anisia.lupu@yahoo.com
+phone: +(40) 748 842 145
+location: Iasi, Romania
+print_page: true
+google_analytics: true
+
+more:
+  interests:
+    - Swimming
+    - Reading 
+    - Loving animals
+
+# Social links
+linkedin_username: anisia-ioana-lupu
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+
+  **Hello, I'm Anisia and I'm a Software Developer.**  <br> I have almost 3 years of experiencing in coding, testing and continuosly improving software products.
+
+  With a good analytical thinking and a lot of perseverance I accepted the challenge to make the world a better place in the era of digitalization. 
+
+  **Skills:** `Java`,  `J2EE`, `SQL`, `Hibernate`, `Spring`, `Commitment`, `Curiosity`
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Educationc
+
+# More Section
+# more_title: A Little More About Me
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-git_metadata
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

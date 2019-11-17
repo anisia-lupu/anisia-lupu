@@ -1,0 +1,17 @@
+- layout: left
+  name: Bitdefender Training
+  grades:
+    - dates: 2014 - 1 Month
+  grades_desc:
+    - qualification: |
+      description: | # this will include new lines to allow paragraphs
+        During this training I learned WinApi, Reverse Engineering, Work with IDA Pro and Python
+
+- layout: left
+  name: CloudBase Training
+  grades:
+    - dates: 2015 - 1 Month
+  grades_desc:
+    - qualification: |
+      description: | # this will include new lines to allow paragraphs
+        This was an intensive, 8 hours training on Networking, Bash, Git and Python. The training finished with a practical test.

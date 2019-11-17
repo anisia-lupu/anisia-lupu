@@ -1,0 +1,81 @@
+- layout: left
+  company: Unicredit Services
+  job_title: Junior Java Developer 
+  dates: Jun 2018 - Present
+  description: |
+
+    Being part of the "Innovation Team", in order to deliver solutions that increase the quality of our development workflow and products, 
+    I worked on building an automation testing framework from scratch for two web applications in our department. 
+
+    - Propose technologies for developing/improving the framework;
+    - Introduce the BDD approach in order to encourage collaboration among developers and non-technical participants
+    - Write and configure automation tests suites
+    - Participate in daily scrum meetings
+    - Assist testers colleagues to write automation tests and understand the framework
+    - Writing technical documentation
+
+  technologies:
+    - kind: "Technologies:"
+      tech:
+        - name: Java 8
+        - name: Serenity BDD
+        - name: Selenium WebDriver        
+        - name: Cucumber
+        - name: WireMock
+        - name: ActiveJDBC
+        - name: Maven
+        - name: JUnit
+        - name: Docker
+        - name: Oracle
+
+
+- layout: left
+  dates: Apr 2017 - Jun 2018
+  description: | # this will include new lines to allow paragraphs
+
+    Develop new features and fix existing issues for a financial advisory application which provides professional expertise
+    in investing/desinvesting on financial instruments depending on the user profile target.
+
+    - Provide application development and testing
+    - Debugging, finding and fixing bugs
+    - Participate in daily scrum meetings
+    - Implementing unit tests for new features
+    - Communicating with testers and business analysts
+    - Code review 
+  
+  technologies:
+    - kind: "Technologies:"
+      tech:
+        - name: Java 7
+        - name: Java2EE
+        - name: Spring
+        - name: Primefaces
+        - name: Hibernate
+        - name: SQL, DB2
+        - name: JUnit, Mockito
+        - name: Maven
+        - name: Git, Gitlab
+
+
+- layout: left
+  company: Centric Software Solutions
+  job_title: Database and Application Development Internship
+  dates: Aug 2015 - Nov 2015 (Internship 3 Months)
+  description: |
+
+    Involved in a summer full-time internship in which I developed a custom desktop application using Oracle PL/SQL and Oracle Forms. 
+  
+  technologies:
+    - kind: "Tech Stack:"
+      tech:
+        - name: SQL
+        - name: PL/SQL
+        - name: Oracle
+        - name: Oracle Forms
+
+
+
+
+
+
+

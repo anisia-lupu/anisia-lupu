@@ -1,0 +1,391 @@
+@import "base";
+@import "button";
+@import "type";
+
+
+
+$body-color: slategray;
+$body-text-size: 1.6rem;
+$break-color: rgb(200, 200, 200);
+$page-color: snow;
+$shadow-color: rgba(0, 0, 0, .15);
+$outline-color: rgba(0, 0, 0, .1);
+$text-color: lighten(black, 30%);
+
+blockquote p {
+    font-size: 1em !important;
+}
+ //vv
+ .one, .two, .three{
+    position:absolute;
+	margin-top:-6px;
+	z-index:1;
+	height:23px;
+	width:23px;
+	border-radius:23px;
+	
+}
+
+.download_cv{
+    background-image: url("images/download.png");
+    background-repeat: no-repeat;
+}
+
+.one{
+	left:25%;
+}
+.two{
+	left:50%;
+}
+.three{
+	left:75%;
+}
+.primary-color{
+	background-color:#4989bd;
+}
+.success-color{
+	background-color:#5cb85c;
+}
+.danger-color{
+	background-color:#d9534f;
+}
+.warning-color{
+	background-color:#f0ad4e;
+}
+.info-color{
+	background-color:#5bc0de;
+}
+.no-color{
+	background-color:inherit;
+}
+
+.download_cv {
+    height: 50px ! important;
+    background: url(/images/download.png) no-repeat 50px center;
+    cursor: pointer;
+    padding: 0;
+    border:0;
+      background-size: 50px 50px;
+      margin: 0 0;
+      float:left;
+  }
+
+// vv
+.sb {
+  float: left;
+  margin-bottom: .5rem;
+  position: relative;
+  width: 100%;
+
+  small {
+    background: $body-color;
+    color: white;
+    border-radius: .5rem;
+    box-shadow: 0 .1rem .1rem 0 $shadow-color;
+    font-size: 1.2rem;
+    left: 50%;
+    opacity: 0;
+    padding: 1rem;
+    position: absolute;
+    transform: translate(-50%, 0);
+    transition:
+      opacity 1s ease-out,
+      transform .5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+    z-index: 5;
+  }
+
+}
+
+/* Section Break 4 */
+.section-break-4 {
+  border: 0;
+  background-color: transparent;
+  height: 0;
+  margin: 2rem auto 4rem;
+  text-align: center;
+  width: 100%;
+
+  &:before,
+  &:after {
+    background-color: $break-color;
+    content: '';
+    height: 1px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 7%;
+  }
+
+  &:before {
+    transform: rotate(10deg);
+  }
+
+  &:after {
+    transform: rotate(-10deg);
+  }
+}
+
+ul.icons a:hover {
+  background: rgba(0, 0, 0, 0.025);
+}
+
+ul.icons li {
+  display: inline-block;
+  padding-left: 0.75em;
+}
+
+ul.icons a {
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+  display: inline-block;
+  width: 2.75em;
+  height: 2.75em;
+  line-height: 2.8em;
+  text-align: center;
+  border: 0;
+  box-shadow: none;
+  padding:0;
+  border-radius: 100%;
+  color: #aaa;
+}
+
+.icons i {
+  font-size: 30px;
+  line-height:60px;
+}
+
+.icons {
+  padding: 0;
+  font-size: 1em;
+  margin-bottom:20px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .icons {
+    text-align: center;
+  }
+}
+
+.header-right p {
+  margin-bottom: 3px;
+}
+
+.header-right a{
+  color:inherit;
+  font-weight:500;
+}
+
+@media screen and (max-width: 768px) {
+  .header-contianer div{
+    text-align: center;
+  }
+
+  .header-right p {
+    text-align: center;
+  }
+
+  .header-left {
+    margin-top: 0px;
+  }
+}
+
+.profile-img {
+  @media only print {
+    width: 130px !important;
+    height: 130px!important;
+  }
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 100px;
+  background-size: cover;
+  // background-position: -70px;
+  background-repeat: repeat, no-repeat;
+  -moz-box-shadow: inset 0 0 20px #636161;
+  -webkit-print-color-adjust: exact;
+  -webkit-box-shadow: inset 0 0 20px #636161;
+  box-shadow: inset 0 0 20px #636161;
+}
+
+.into-text-1 {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width : 992px) {
+  .into-text-1 {
+    margin-top: 20px;
+  }
+}
+
+.projects-container, .experience-container, .education-container {
+  h3 {
+    margin-bottom: 0;
+  }
+}
+
+.layout {
+  margin-top: 3em;
+
+  .details {
+    text-align: left;
+
+    p {
+      margin-bottom: 3px;
+      font-size: 1.6em;
+      text-align: inherit;
+      font-weight: 300;
+
+      b {
+        font-weight: 500;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+
+      p {
+        text-align: center;
+      }
+    }
+
+    a {
+      color: inherit;
+      font-style: italic;
+      font-weight: 300;
+    }
+
+    .fa {
+      font-size: 2em;
+    }
+
+    .link {
+      font-size: 1.5em;
+    }
+
+    h4 {
+      margin-bottom: 0.1em;
+      font-weight: 500;
+
+      @media print {
+        margin-bottom: 0.2em;
+      }
+
+      a {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.layout-right, .layout-top-right {
+  .details {
+    text-align: right;
+  }
+}
+
+.layout-top-middle {
+  .details {
+    text-align: center;
+  }
+}
+
+.footer-container {
+  margin-top:100px;
+}
+
+.footer-container p{
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.footer-container a{
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.page-content {
+  padding: 0;
+}
+
+.contact a {
+  line-height: 50px;
+  margin-left: 30px;
+  color: #BBBBBB;
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+
+.contact a:hover {
+  color: #4C4C4C;
+}
+
+p.quote {
+  font-size: 1.4em;
+  font-style: italic;
+  padding: 1em 2.5em;
+  text-align: center;
+
+  @media print {
+    text-align: left;
+    padding: 0em 1em;
+    margin-top: 1em;
+  }
+}
+
+code {
+    margin:2px;
+    border-radius: 5px;
+    color: #c7254e;
+    background-color: #f9f2f4 ! important;
+    font-size:0.9em;
+    line-height:1.5;
+    -webkit-print-color-adjust: exact;
+}
+
+.marked {
+    margin:2px;
+    border-radius: 5px ;
+    color: #c7254e ;
+    background-color: #f9f2f4 ;
+    font-size:1.2em ;
+    line-height:1.5 ;
+    @media print {
+        background-color: white ;
+        color: black ;
+        -webkit-print-color-adjust: exact;
+    }
+}
+
+.marked-simple {
+    margin: 2px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    color: black;
+    background-color: white;
+    font-size: 1.2em;
+    line-height: 1.5;
+    -webkit-print-color-adjust: exact;
+}
+
+
+@media print
+{
+    .no-split {
+        page-break-inside: avoid;
+        display: table;
+    }
+    p, ul {
+        font-size: 1.6em;
+    }
+}

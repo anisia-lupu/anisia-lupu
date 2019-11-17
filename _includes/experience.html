@@ -1,0 +1,23 @@
+<div class="container experience-container">
+    {% for experience in site.data.experience %}
+
+    {% if forloop.first == true %}
+    <div class="no-split">
+        <h3>{{ site.experience_title | default: "Experience" }}</h3>
+        {% include {{ experience.layout | default: 'left' | append: ".html" }} item=experience %}
+    </div>
+    {% endif %}
+
+    {% if forloop.first != true %}
+    <div class="no-split"> {% include {{ experience.layout | default: 'left' | append: ".html" }} item=experience %}</div>
+    {% endif %}
+
+    {% if forloop.last != true %}
+    <div class="sb sb-4 no-print hidden-xs hidden-sm no-split">
+        <hr class="section-break-4"/>
+    </div>
+    {% endif %}
+
+
+    {% endfor %}
+</div>

@@ -1,0 +1,6 @@
+<div class="container experience-container no-split">
+  <h3>{{ site.courses_title | default: "Courses" }}</h3>
+  {% for course in site.data.courses %}
+    {% include {{ courses.layout | default: 'left' | append: ".html" }} item=course %}
+  {% endfor %}
+</div>

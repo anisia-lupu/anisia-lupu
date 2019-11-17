@@ -1,0 +1,13 @@
+<div class="container more-container">
+    <div class="row clearfix">
+        <div class="col-md-12">
+            <div class="container-fluid">
+                <h5> {{ site.more_title | default: "Hobbies" }} :</h5>
+                {% for interest in site.more.interests %}
+                <span class="badge badge-light marked-simple">{{ interest }}</span>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>

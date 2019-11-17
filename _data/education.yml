@@ -1,0 +1,28 @@
+- layout: left
+
+- name: Alexandru Ioan Cuza University (UAIC)
+  grades:
+    - dates: 2013 - 2016
+      qualification: BSc Computer Science
+      city: Iasi
+
+    - dates: 2016 - 2018
+      qualification: Master in Software Systems Engineering
+  grades_desc:
+    - qualification: |
+        **Title: Bachelor of Computer Science**
+
+- name: |
+      "Petru Rareș" National College
+  grades:
+    - dates: 2016 - 2018
+      city: Piatra-Neamt
+      qualification: Master in Software Systems Engineering
+  grades_desc:
+    - qualification: 
+      description: | # this will include new lines to allow paragraphs
+      
+#           **Master of Computer Science - Software Engineering**
+#      description: | # this will include new lines to allow paragraphs
+#        Master degree studies in Software Engineering was a step further for a carier as a Software Engineer. Durring these 2 year I learned how to process Big Data, to manage Projects
+#        and build projects from scratch
