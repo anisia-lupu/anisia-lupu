@@ -1,11 +1,12 @@
 - layout: left
 
-- name: Alexandru Ioan Cuza University (UAIC) 2
+- name: Alexandru Ioan Cuza University
   grades:
     - dates: 2013 - 2016
       qualification: BSc Computer Science
       city: Iasi
 
+- name: Alexandru Ioan Cuza University
     - dates: 2016 - 2018
       qualification: Master in Software Systems Engineering
   grades_desc:
