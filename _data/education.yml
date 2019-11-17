@@ -7,11 +7,9 @@
       city: Iasi
 
 - name: Alexandru Ioan Cuza University
+  grades:
     - dates: 2016 - 2018
       qualification: Master in Software Systems Engineering
-  grades_desc:
-    - qualification: |
-        **Title: Bachelor of Computer Science**
 
 - name: |
       "Petru Rareș" National College
