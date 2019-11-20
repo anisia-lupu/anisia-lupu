@@ -1,23 +1,22 @@
 - layout: left_education
 - name: Alexandru Ioan Cuza University
   grades:
-    - dates: 2013 - 2016
-      qualification: BSc Computer Science
+    - dates: 2016 - 2018
+      qualification: Master in Software Systems Engineering
       city: Iasi
 
 - name: Alexandru Ioan Cuza University
   grades:
-    - dates: 2016 - 2018
-      qualification: Master in Software Systems Engineering
-
+    - dates: 2013 - 2016
+      qualification: Bachelor's Degree in Computer Science
+      city: Iasi
 - name: |
       "Petru Rareș" National College
   grades:
-    - dates: 2016 - 2018
-      city: Piatra-Neamt
-      qualification: Master in Software Systems Engineering
+    - dates: 2019 - 2013
+      city: Piatra-Neamț (hometown)
   grades_desc:
-    - qualification: 
+    - qualification: High School Diploma
       description: | # this will include new lines to allow paragraphs
       
 #           **Master of Computer Science - Software Engineering**
