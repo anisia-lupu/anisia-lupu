@@ -2,7 +2,7 @@
     {% for education in site.data.education %}
 
     {% if forloop.first == true %}
-    <div class="no-split">
+    <div>
         <h3>{{ site.education_title | default: "Education" }}</h3>
         {% include {{ education.layout | default: 'left_education' | append: ".html" }} item=education %}
     </div>
