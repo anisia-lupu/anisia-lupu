@@ -14,9 +14,9 @@
       "Petru Rareș" National College
   grades:
     - dates: 2019 - 2013
+    - qualification: High School Diploma
       city: Piatra-Neamț (hometown)
   grades_desc:
-    - qualification: High School Diploma
       description: | # this will include new lines to allow paragraphs
       
 #           **Master of Computer Science - Software Engineering**
