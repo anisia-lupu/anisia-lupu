@@ -9,7 +9,7 @@
     {% endif %}
 
     {% if forloop.first != true %}
-    <div class="no-split"> {% include {{ education.layout | default: 'left_education' | append: ".html" }} item=education %}</div>
+    {% include {{ education.layout | default: 'left_education' | append: ".html" }} item=education %}
     {% endif %}
 
 
