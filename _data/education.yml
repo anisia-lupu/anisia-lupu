@@ -3,22 +3,20 @@
   grades:
     - dates: 2016 - 2018
       qualification: Master in Software Systems Engineering
-      city: Iasi
+      city: Iași
 
 - name: Alexandru Ioan Cuza University
   grades:
     - dates: 2013 - 2016
       qualification: Bachelor's Degree in Computer Science
-      city: Iasi
+      city: Iași
 - name: |
       "Petru Rareș" National College
   grades:
     - dates: 2019 - 2013
     - qualification: High School Diploma
       city: Piatra-Neamț (hometown)
-  grades_desc:
-      description: | # this will include new lines to allow paragraphs
-      
+
 #           **Master of Computer Science - Software Engineering**
 #      description: | # this will include new lines to allow paragraphs
 #        Master degree studies in Software Engineering was a step further for a carier as a Software Engineer. Durring these 2 year I learned how to process Big Data, to manage Projects
