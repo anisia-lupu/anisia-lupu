@@ -5,10 +5,10 @@
 
         {%- if include.item.grades -%}
             {% for grade in include.item.grades %}
-            <div class="col-xs-12 col-sm-2 col-md-2 col-print-12 details no-split">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-print-2 details no-split">
                 <p>{{ grade.dates }}</p>
             </div>
-            <div class="col-xs-12 col-sm-2 col-md-10 col-print-12 details no-split">
+            <div class="col-xs-12 col-sm-2 col-md-10 col-print-10 details no-split">
                 <p><b>{{ grade.qualification }}</b></p>
                 {%- if include.item.name -%} <p>{{ include.item.name }} <p>{%- endif -%}
                 {%- if grade.city -%} <p>{{ grade.city }}</p>{%- endif -%}
