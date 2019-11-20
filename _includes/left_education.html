@@ -10,7 +10,7 @@
             </div>
             <div class="col-xs-12 col-sm-2 col-md-10 col-print-12 details no-split">
                 <p><h5>{{ grade.qualification }}</h5></p>
-                {%- if item.name -%} <p><h6>{{ item.name }}</h6></p>{%- endif -%}
+                {%- if include.item.grades.name -%}
                 {%- if grade.city -%} <p>{{ grade.city }}</p>{%- endif -%}
             </div>
             {% endfor %}
