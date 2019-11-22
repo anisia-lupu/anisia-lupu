@@ -2,7 +2,7 @@
     <div class="row clearfix">
         <div class="col-md-12">
             <div class="container-fluid">
-                <h4> {{ site.more_title | default: "Hobbies" }} :</h4>
+                <b> {{ site.more_title | default: "Hobbies" }} :</b>
                 {% for interest in site.more.interests %}
                 <span class="badge badge-light marked-simple">{{ interest }}</span>
                 {% endfor %}
