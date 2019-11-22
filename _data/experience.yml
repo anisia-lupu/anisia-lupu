@@ -34,7 +34,7 @@
   description: | # this will include new lines to allow paragraphs
 
     Develop new features and fix existing issues for a financial advisory application which provides professional expertise
-    in investing/desinvesting on financial instruments depending on the user profile target.
+    in investing/desinvesting on financial instruments depending on the user target profile.
 
     - Provide application development and testing
     - Debugging, finding and fixing bugs
