@@ -1,14 +1,14 @@
-- layout: left
-  name: FII Practic Spring Training
-  grades:
-    - dates: 2016 - 1 Month
-  grades_desc:
-    - qualification: |
-      description: | # this will include new lines to allow paragraphs
-        During this training I learned how to use Spring MVC
-
-- layout: left
-  name: Aiesec IT Academy Web Development Training
-  grades:
-    - dates: 2013 - 1 Month
-
+#- layout: left
+#  name: FII Practic Spring Training
+#  grades:
+#    - dates: 2016 - 1 Month
+#  grades_desc:
+#    - qualification: |
+#      description: | # this will include new lines to allow paragraphs
+#        During this training I learned how to use Spring MVC
+#
+#- layout: left
+#  name: Aiesec IT Academy Web Development Training
+#  grades:
+#    - dates: 2013 - 1 Month
+#
