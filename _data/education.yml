@@ -1,11 +1,11 @@
 - layout: left_education
-- name: Faculty of Computer Science, Alexandru Ioan Cuza University
+- name: Faculty of Computer Science, Alexandru Ioan Cuza University of Iași
   grades:
     - dates: 2016 - 2018
       qualification: Master in Software Systems Engineering
       city: Iași
 
-- name: Faculty of Computer Science, Alexandru Ioan Cuza University
+- name: Faculty of Computer Science, Alexandru Ioan Cuza University of Iași
   grades:
     - dates: 2013 - 2016
       qualification: Bachelor's Degree in Computer Science
