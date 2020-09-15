@@ -6,7 +6,7 @@ repository: sproogen/resume-theme
 name: Lupu Anisia Ioana 
 title: Java Software Developer
 email: anisia.lupu@yahoo.com
-phone: +(40) 748 842 145
+# phone: +(40) 748 842 145
 location: Iasi, Romania
 print_page: true
 google_analytics: true
